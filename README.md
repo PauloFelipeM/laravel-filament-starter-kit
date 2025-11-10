@@ -8,13 +8,14 @@ This project is a starter kit for building modern web applications using Laravel
 - Laravel 12
 
 # Features:
-
+- User wallet
 - Login and Register
 - Social Login (Google, Facebook, GitHub, etc)
 - Profile Management
-- Two Factor Authentication
+- Two-Factor Authentication
 - Platform Settings
 - SPA (Single Page Application)
+- API - Token based authentication
 
 The project is built using PHP 8.2+, and it follows the latest best practices for building secure and scalable web applications.
 
@@ -25,5 +26,7 @@ The project is built using PHP 8.2+, and it follows the latest best practices fo
 - Filament 4
 - Spatie Laravel-Settings
 - Spatie Laravel-Socialite
+- Sanctum
+- Laravel Wallet - Doc: https://021-projects.github.io/laravel-wallet/9.x/basic-usage.html
 
 The project is fully customizable, and it can be easily extended to include additional features and functionality.

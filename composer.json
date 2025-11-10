@@ -10,11 +10,13 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "021/laravel-wallet": "^9.0",
         "backpack/crud": "^6.8",
         "dutchcodingcompany/filament-socialite": "^3.0",
         "filament/filament": "^4.1",
         "filament/spatie-laravel-settings-plugin": "^4.0",
         "laravel/framework": "^12.0",
+        "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.10.1",
         "nelexa/zip": "*",
         "owenvoke/blade-fontawesome": "^3.0",
