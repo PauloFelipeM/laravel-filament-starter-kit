@@ -11,13 +11,14 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Laravel\Sanctum\HasApiTokens;
-use O21\LaravelWallet\Contracts\Payable;
-use O21\LaravelWallet\Models\Concerns\HasBalance;
+use Laravel\Cashier\Billable;
+use Bavix\Wallet\Interfaces\Wallet;
+use Bavix\Wallet\Traits\HasWallet;
 
 class User extends Authenticatable implements FilamentUser, HasAppAuthentication, HasAppAuthenticationRecovery,
-                                              MustVerifyEmail, Payable
+                                              MustVerifyEmail, Wallet
 {
-    use HasFactory, Notifiable, HasBalance, HasApiTokens;
+    use HasFactory, Notifiable, Billable, HasWallet, HasApiTokens;
 
     /**
      * The attributes that are mass assignable.

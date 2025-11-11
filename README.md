@@ -27,6 +27,7 @@
 - Spatie Laravel-Settings
 - Spatie Laravel-Socialite
 - Sanctum
-- Laravel Wallet - Doc: https://021-projects.github.io/laravel-wallet/9.x/basic-usage.html
+- Laravel Cashier
+- Laravel Wallet - Doc: https://bavix.github.io/laravel-wallet/
 
 #### The project is fully customizable, and it can be easily extended to include additional features and functionality.
