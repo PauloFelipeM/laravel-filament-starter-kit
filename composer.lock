@@ -4,178 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6384460f3244b8eac80faa9e036429c7",
+    "content-hash": "d57193b2c4a7410d6158e4e28be3fe5d",
     "packages": [
-        {
-            "name": "021/laravel-wallet",
-            "version": "v9.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/021-projects/laravel-wallet.git",
-                "reference": "458f1a5970f2cdc449016daa7c5e70124427ff6f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/021-projects/laravel-wallet/zipball/458f1a5970f2cdc449016daa7c5e70124427ff6f",
-                "reference": "458f1a5970f2cdc449016daa7c5e70124427ff6f",
-                "shasum": ""
-            },
-            "require": {
-                "021/numeric": "^1.0.0",
-                "021/safely-transaction": "^1.0.1",
-                "illuminate/console": "^10.0|^11.0|^12.0",
-                "illuminate/contracts": "^10.0|^11.0|^12.0",
-                "illuminate/database": "^10.0|^11.0|^12.0",
-                "illuminate/events": "^10.0|^11.0|^12.0",
-                "illuminate/filesystem": "^10.0|^11.0|^12.0",
-                "illuminate/support": "^10.0|^11.0|^12.0",
-                "php": "^8.1|^8.2|^8.3|^8.4"
-            },
-            "require-dev": {
-                "larastan/larastan": "^2.0|^3.0",
-                "laravel/pint": "^1.13",
-                "orchestra/testbench": "^8.21|^9.0|^10.0|^11.0",
-                "phpunit/phpunit": "^10.5|^11.0|^12.0"
-            },
-            "type": "package",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "O21\\LaravelWallet\\ServiceProvider"
-                    ],
-                    "dont-discover": []
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/helpers.php",
-                    "src/config_helpers.php"
-                ],
-                "psr-4": {
-                    "O21\\LaravelWallet\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "021",
-                    "email": "devsellio@gmail.com",
-                    "homepage": "https://021-projects.github.io/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Reliable and flexible wallet system for Laravel",
-            "keywords": [
-                "balance",
-                "deposit",
-                "finance",
-                "laravel",
-                "payment",
-                "payout",
-                "transactions",
-                "transfer",
-                "wallet",
-                "withdrawal"
-            ],
-            "support": {
-                "issues": "https://github.com/021-projects/laravel-wallet/issues",
-                "source": "https://github.com/021-projects/laravel-wallet/tree/v9.0.4"
-            },
-            "time": "2025-06-18T18:26:59+00:00"
-        },
-        {
-            "name": "021/numeric",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/021-projects/numeric.git",
-                "reference": "b2c3cae87ff4ad91f27c885ea255f7323f75e3b0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/021-projects/numeric/zipball/b2c3cae87ff4ad91f27c885ea255f7323f75e3b0",
-                "reference": "b2c3cae87ff4ad91f27c885ea255f7323f75e3b0",
-                "shasum": ""
-            },
-            "require": {
-                "brick/math": "^0.11|^0.12|^0.13|^0.14",
-                "php": "^8.1|^8.2|^8.3"
-            },
-            "require-dev": {
-                "laravel/pint": "^1.13",
-                "phpunit/phpunit": "^9.5|^10.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ],
-                "psr-4": {
-                    "O21\\Numeric\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "021-projects",
-                    "email": "20326979+021-projects@users.noreply.github.com"
-                }
-            ],
-            "description": "A PHP library for working with precise numbers.",
-            "support": {
-                "issues": "https://github.com/021-projects/numeric/issues",
-                "source": "https://github.com/021-projects/numeric/tree/v1.0.2"
-            },
-            "time": "2025-09-24T17:12:18+00:00"
-        },
-        {
-            "name": "021/safely-transaction",
-            "version": "v1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/021-projects/laravel-safely-transaction.git",
-                "reference": "dd6f865528163d410b852e822153a85726fac460"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/021-projects/laravel-safely-transaction/zipball/dd6f865528163d410b852e822153a85726fac460",
-                "reference": "dd6f865528163d410b852e822153a85726fac460",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/database": "^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
-                "php": "^8.0|^8.1|^8.2|^8.3|^8.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9.5.10|^10.0|^11.0|^12.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "O21\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Helper class for locking record in database",
-            "keywords": [
-                "framework",
-                "laravel"
-            ],
-            "support": {
-                "issues": "https://github.com/021-projects/laravel-safely-transaction/issues",
-                "source": "https://github.com/021-projects/laravel-safely-transaction/tree/v1.0.4"
-            },
-            "time": "2025-04-19T10:33:16+00:00"
-        },
         {
             "name": "anourvalar/eloquent-serialize",
             "version": "1.3.4",
@@ -4356,6 +4186,72 @@
                 }
             ],
             "time": "2024-12-08T08:18:47+00:00"
+        },
+        {
+            "name": "livewire/flux",
+            "version": "v2.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/livewire/flux.git",
+                "reference": "227b88db0a02db91666af2303ea6727a3af78c51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/livewire/flux/zipball/227b88db0a02db91666af2303ea6727a3af78c51",
+                "reference": "227b88db0a02db91666af2303ea6727a3af78c51",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^10.0|^11.0|^12.0",
+                "illuminate/support": "^10.0|^11.0|^12.0",
+                "illuminate/view": "^10.0|^11.0|^12.0",
+                "laravel/prompts": "^0.1|^0.2|^0.3",
+                "livewire/livewire": "^3.5.19|^4.0",
+                "php": "^8.1",
+                "symfony/console": "^6.0|^7.0"
+            },
+            "conflict": {
+                "livewire/blaze": "<0.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Flux": "Flux\\Flux"
+                    },
+                    "providers": [
+                        "Flux\\FluxServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flux\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Caleb Porzio",
+                    "email": "calebporzio@gmail.com"
+                }
+            ],
+            "description": "The official UI component library for Livewire.",
+            "keywords": [
+                "components",
+                "flux",
+                "laravel",
+                "livewire",
+                "ui"
+            ],
+            "support": {
+                "issues": "https://github.com/livewire/flux/issues",
+                "source": "https://github.com/livewire/flux/tree/v2.6.1"
+            },
+            "time": "2025-10-28T21:12:05+00:00"
         },
         {
             "name": "livewire/livewire",

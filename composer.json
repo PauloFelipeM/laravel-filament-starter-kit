@@ -19,6 +19,7 @@
         "laravel/framework": "^12.0",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.10.1",
+        "livewire/flux": "^2.6",
         "nelexa/zip": "*",
         "owenvoke/blade-fontawesome": "^3.0",
         "spatie/laravel-settings": "^3.5",
